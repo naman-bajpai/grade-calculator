@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import TestForm from './TestForm';
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       <div>
         <h1 class="title">Grade suggester</h1>
-        
+        <TestForm />
       </div>
     </div>
   );
