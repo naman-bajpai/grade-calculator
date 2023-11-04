@@ -1,14 +1,14 @@
-import logo from './logo.svg';
-import TestForm from './TestForm';
+import React from 'react';
 import './App.css';
+import TestForm from './TestForm';
 
 function App() {
   return (
     <div className="App">
       <div>
-        <h1 class="title">Grade suggester</h1>
+        <h1 class="title">Grade suggestor</h1>
         <TestForm />
-      </div>
+      </div> 
     </div>
   );
 }
